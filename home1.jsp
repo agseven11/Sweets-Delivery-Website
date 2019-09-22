@@ -72,7 +72,7 @@ String id = (String)s.getAttribute("id");
                  </li>
                  
                  <li class="nav-item">
-                    <a class="nav-link" href="#" id="cartid">Cart</a>
+                    <a class="nav-link" href="cart.jsp" id="cartid">Cart</a>
                 </li>
     
             </ul>

@@ -122,6 +122,12 @@ for(CartdModel r:l)
 		</center>
 		
 	</div>
+	
+	<div class = "order">
+	<center>
+	<button href="#" class="button1">Order</button>
+	</center>
+	</div>
 
 
 

@@ -6,7 +6,7 @@
 <meta charset="ISO-8859-1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>rest2</title>
+    <title>Mallaya Sweets</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="Stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
@@ -67,7 +67,7 @@ String id = (String)s.getAttribute("id");
                  </li>
                  
                  <li class="nav-item">
-                    <a class="nav-link" href="#" id="cartid">Cart</a>
+                    <a class="nav-link" href="cartdServlet" id="cartid">Cart</a>
                 </li>
     
             </ul>
@@ -82,7 +82,9 @@ String id = (String)s.getAttribute("id");
 
 </div>
 
-    <div class="container">
+    
+
+<div class="container">
         <div class="row">
         <div class="col-sm-2">
            
@@ -90,30 +92,30 @@ String id = (String)s.getAttribute("id");
         </div>
         <div class="col-sm-3">
                 <div class="card">
-                        <img src="sweets/soan2.jpg" alt="Denim Jeans" style="width:100%;height:140px;">
-                        <h1>Soan Papdi</h1>
+                        <img src="sweets/restb4/barfi4.jpg" alt="Denim Restaurant" style="width:100%;height:140px;">
+                        <h1>Barfi</h1>
                         <p class="price">$19.99</p>
-                        <p>Some text about the jeans..</p>
+                        <p>Some text about the Restaurant..</p>
                         <p><button>Add to Cart</button></p>
                       </div>
 
         </div>
         <div class="col-sm-3">
                 <div class="card">
-                        <img src="sweets/Balushahi2.jpg" alt="Denim Jeans" style="width:100%;height:140px;">
-                        <h1>Balushahi</h1>
+                        <img src="sweets/restb4/besan4.jpg" alt="Denim Restaurant" style="width:100%;height:140px;">
+                        <h1>Besan Laddoo</h1>
                         <p class="price">$19.99</p>
-                        <p>Some text about the jeans..</p>
+                        <p>Some text about the Restaurant..</p>
                         <p><button>Add to Cart</button></p>
                       </div>
 
         </div>
         <div class="col-sm-3">
                 <div class="card">
-                        <img src="sweets/agrapetha1.jpg" alt="Denim Jeans" style="width:100%;height:140px;">
-                        <h1>AgraPetha</h1>
+                        <img src="sweets/restb4/Chamcham4.jpg" alt="Denim Restaurant" style="width:100%;height:140px;">
+                        <h1>ChamCham</h1>
                         <p class="price">$19.99</p>
-                        <p>Some text about the jeans..</p>
+                        <p>Some text about the Restaurant..</p>
                         <p><button>Add to Cart</button></p>
                       </div>
 
@@ -134,30 +136,30 @@ String id = (String)s.getAttribute("id");
         </div>
         <div class="col-sm-3">
                 <div class="card">
-                        <img src="sweets/barfi2.jpg" alt="Denim Jeans" style="width:100%;height:140px;">
-                        <h1>Barfi</h1>
+                        <img src="sweets/restb4/soan4.jpg" alt="Denim Restaurant" style="width:100%;height:140px;">
+                        <h1>Soan Papdi</h1>
                         <p class="price">$19.99</p>
-                        <p>Some text about the jeans..</p>
+                        <p>Some text about the Restaurant..</p>
                         <p><button>Add to Cart</button></p>
                       </div>
 
         </div>
         <div class="col-sm-3">
                 <div class="card">
-                        <img src="sweets/besan1.jpg" alt="Denim Jeans" style="width:100%;height:140px;">
-                        <h1>Besan Laddoo</h1>
+                        <img src="sweets/restb4/Balushahi4.jpg" alt="Denim Restaurant" style="width:100%;height:140px;">
+                        <h1>Balushahi</h1>
                         <p class="price">$19.99</p>
-                        <p>Some text about the jeans..</p>
+                        <p>Some text about the Restaurant..</p>
                         <p><button>Add to Cart</button></p>
                       </div>
 
         </div>
         <div class="col-sm-3">
                 <div class="card">
-                        <img src="sweets/chamcham2.jpg" alt="Denim Jeans" style="width:100%;height:140px;">
-                        <h1>ChamCham</h1>
+                        <img src="sweets/restb4/agrapetha4.jpg" alt="Denim Restaurant" style="width:100%;height:140px;">
+                        <h1>AgraPetha</h1>
                         <p class="price">$19.99</p>
-                        <p>Some text about the jeans..</p>
+                        <p>Some text about the Restaurant..</p>
                         <p><button>Add to Cart</button></p>
                       </div>
 
@@ -169,6 +171,7 @@ String id = (String)s.getAttribute("id");
     </div>
         
 </div>
+
 <div class="container">
                 <div class="row">
                 <div class="col-sm-2">
@@ -177,30 +180,30 @@ String id = (String)s.getAttribute("id");
                 </div>
                 <div class="col-sm-3">
                         <div class="card">
-                                <img src="sweets/kaju1.jpg" alt="Denim Jeans" style="width:100%;height:140px;">
+                                <img src="sweets/restb4/kaju4.jpg" alt="Denim Restaurant" style="width:100%;height:140px;">
                                 <h1>Kaju Katli</h1>
                                 <p class="price">$19.99</p>
-                                <p>Some text about the jeans..</p>
+                                <p>Some text about the Restaurant..</p>
                                 <p><button>Add to Cart</button></p>
                               </div>
         
                 </div>
                 <div class="col-sm-3">
                         <div class="card">
-                                <img src="sweets/kalakand1.png" alt="Denim Jeans" style="width:100%;height:140px;">
+                                <img src="sweets/restb4/kalakand4.jpg" alt="Restaurant" style="width:100%;height:140px;">
                                 <h1>kalakand</h1>
                                 <p class="price">$19.99</p>
-                                <p>Some text about the jeans..</p>
+                                <p>Some text about the Restaurant..</p>
                                 <p><button>Add to Cart</button></p>
                               </div>
         
                 </div>
                 <div class="col-sm-3">
                         <div class="card">
-                                <img src="sweets/milkcake2.jpg" alt="Denim Jeans" style="width:100%;height:140px;">
+                                <img src="sweets/restb4/milkcake4.png" alt="Denim Restaurant" style="width:100%;height:140px;">
                                 <h1>Milk cake</h1>
                                 <p class="price">$19.99</p>
-                                <p>Some text about the jeans..</p>
+                                <p>Some text about the Restaurant..</p>
                                 <p><button>Add to Cart</button></p>
                               </div>
         
@@ -220,30 +223,30 @@ String id = (String)s.getAttribute("id");
                         </div>
                         <div class="col-sm-3">
                                 <div class="card">
-                                        <img src="sweets/motichur1.jpg" alt="Denim Jeans" style="width:100%;height:140px;">
+                                        <img src="sweets/restb4/motichur4.jpg" alt="Denim Restaurant" style="width:100%;height:140px;">
                                         <h1>laddoo</h1>
                                         <p class="price">$19.99</p>
-                                        <p>Some text about the jeans..</p>
+                                        <p>Some text about the Restaurant..</p>
                                         <p><button>Add to Cart</button></p>
                                       </div>
                 
                         </div>
                         <div class="col-sm-3">
                                 <div class="card">
-                                        <img src="sweets/mysore2.jpg" alt="Denim Jeans" style="width:100%;height:140px;">
+                                        <img src="sweets/restb4/mysore4.jpg" alt="Denim Restaurant" style="width:100%;height:140px;">
                                         <h1>Mysore Pak</h1>
                                         <p class="price">$19.99</p>
-                                        <p>Some text about the jeans..</p>
+                                        <p>Some text about the Restaurant..</p>
                                         <p><button>Add to Cart</button></p>
                                       </div>
                 
                         </div>
                         <div class="col-sm-3">
                                 <div class="card">
-                                        <img src="sweets/gulab2.jpg" alt="Denim Jeans" style="width:100%;height:140px;">
+                                        <img src="sweets/restb4/gulab4.jpg" alt="Denim Restaurant" style="width:100%;height:140px;">
                                         <h1>Gulab Jamun</h1>
                                         <p class="price">$19.99</p>
-                                        <p>Some text about the jeans..</p>
+                                        <p>Some text about the Restaurant..</p>
                                         <p><button>Add to Cart</button></p>
                                       </div>
                 

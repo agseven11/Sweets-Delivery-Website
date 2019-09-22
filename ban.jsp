@@ -63,7 +63,7 @@ String id = (String)s.getAttribute("id");
                  </li>
                  
                  <li class="nav-item">
-                    <a class="nav-link" href="#" id="cartid">Cart</a>
+                    <a class="nav-link" href="cartdServlet" id="cartid">Cart</a>
                 </li>
     
             </ul>
@@ -75,6 +75,8 @@ String id = (String)s.getAttribute("id");
     
     
         <!-- End Navigation -->
+        
+      
 
 </div>
     <div class="container">
@@ -88,7 +90,7 @@ String id = (String)s.getAttribute("id");
                         <img src="images/rest1.jpg" alt="" style="width:100%">
                         <h1>Shanti Sweets</h1>
                         <p class="price">Rs 300 for 2 persons</p>
-                        <p>Some text about the jeans..</p>
+                        <p>Some text about the Restaurant..</p>
                         <form>
                         <button type="submit" formaction="restb1.jsp">Enter</button>
                         </form>
@@ -99,9 +101,9 @@ String id = (String)s.getAttribute("id");
         <div class="col-sm-4">
                 <div class="card">
                         <img src="images/rest1.jpg" alt="s" style="width:100%">
-                        <h1>Ankur Sweets</h1>
+                        <h3>Ankur Sweets and Savouries</h3>
                         <p class="price">Rs 400 for 2 persons</p>
-                        <p>Some text about the jeans..</p>
+                        <p>Some text about the Restaurant..</p>
                         <form>
                         <button type="submit" formaction="restb3.jsp">Enter</button>
                         </form>
@@ -127,7 +129,7 @@ String id = (String)s.getAttribute("id");
                         <img src="images/rest1.jpg" alt="" style="width:100%">
                         <h1>Shree Jai Laxmi Sweets</h1>
                         <p class="price">Rs 350 for 2 persons</p>
-                        <p>Some text about the jeans..</p>
+                        <p>Some text about the Restaurant..</p>
                         <form>
                         <button type="submit" formaction="restb2.jsp">Enter</button>
                         </form>
@@ -139,7 +141,7 @@ String id = (String)s.getAttribute("id");
                         <img src="images/rest1.jpg" alt="" style="width:100%">
                         <h1>Mallya Mishthan Bhandar</h1>
                         <p class="price">Rs 600 for 2 persons</p>
-                        <p>Some text about the jeans..</p>
+                        <p>Some text about the Restaurant..</p>
                         <form>
                         <button type="submit" formaction="restb4.jsp">Enter</button>
                         </form>

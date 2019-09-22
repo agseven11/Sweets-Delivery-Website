@@ -89,7 +89,7 @@ String id = (String)s.getAttribute("id");
         </div>
         <div class="col-sm-3">
                 <div class="card">
-                        <img src="sweets/restb1/barfi1.jpg" alt="Denim Jeans" style="width:100% ;height:140px;">
+                        <img src="sweets/restb1/barfi1.jpg" alt="Denim Restaurant" style="width:100% ;height:140px;">
                         <h1 >Barfi</h1>
                         <p class="price">Rs.60</p>
                         <p>per 100 grams </p>
@@ -101,7 +101,7 @@ String id = (String)s.getAttribute("id");
         </div>
         <div class="col-sm-3">
                 <div class="card">
-                        <img src="sweets/restb1/chamcham1.jpg" alt="Denim Jeans" style="width:100%;height:140px;">
+                        <img src="sweets/restb1/chamcham1.jpg" alt="Denim Restaurant" style="width:100%;height:140px;">
                         <h1 name = "bd2">chamcham</h1>
                         <p class="price">Rs.58</p>
                         <p>per 100 grams </p>
@@ -113,11 +113,13 @@ String id = (String)s.getAttribute("id");
         </div>
         <div class="col-sm-3">
                 <div class="card">
-                        <img src="sweets/restb1/gulab1.jpg" alt="Denim Jeans" style="width:100%;height:140px;">
+                        <img src="sweets/restb1/gulab1.jpg" alt="Denim Restaurant" style="width:100%;height:140px;">
                         <h1 name = "bd3">Gulab jamun</h1>
                         <p class="price">Rs.50</p>
                         <p>per 100 grams </p>
-                        <p><button>Add to Cart</button></p>
+                        <form action="CartServlet" method="POST">
+                        <p><button name="d" value="3 1 1">Add to Cart</button></p>
+                        </form>
                       </div>
 
         </div>
@@ -137,31 +139,37 @@ String id = (String)s.getAttribute("id");
         </div>
         <div class="col-sm-3">
                 <div class="card">
-                        <img src="sweets/restb1/jalebi1.jpg" alt="Denim Jeans" style="width:100%;height:140px;">
+                        <img src="sweets/restb1/jalebi1.jpg" alt="Denim Restaurant" style="width:100%;height:140px;">
                         <h1>Jalebi</h1>
                         <p class="price">Rs.30</p>
                         <p>per 100 grams </p>
-                        <p><button>Add to Cart</button></p>
+                        <form action="CartServlet" method="POST">
+                        <p><button name="d" value="4 1 1">Add to Cart</button></p>
+                        </form>
                       </div>
 
         </div>
         <div class="col-sm-3">
                 <div class="card">
-                        <img src="sweets/restb1/kaju1.jpg" alt="Denim Jeans" style="width:100%;height:140px;">
+                        <img src="sweets/restb1/kaju1.jpg" alt="Denim Restaurant" style="width:100%;height:140px;">
                         <h1>Kaju Barfi</h1>
                         <p class="price">Rs.92</p>
                         <p>per 100 grams </p>
-                        <p><button>Add to Cart</button></p>
+                        <form action="CartServlet" method="POST">
+                        <p><button name="d" value="5 1 1">Add to Cart</button></p>
+                        </form>
                       </div>
 
         </div>
         <div class="col-sm-3">
                 <div class="card">
-                        <img src="sweets/restb1/kalakand1.png" alt="Denim Jeans" style="width:100%;height:140px;">
+                        <img src="sweets/restb1/kalakand1.png" alt="Denim Restaurant" style="width:100%;height:140px;">
                         <h1>Kalakand</h1>
                        <p class="price">Rs.64</p>
                         <p>per 100 grams </p>
-                        <p><button>Add to Cart</button></p>
+                        <form action="CartServlet" method="POST">
+                        <p><button name="d" value="6 1 1">Add to Cart</button></p>
+                        </form>
                       </div>
 
         </div>
@@ -180,31 +188,40 @@ String id = (String)s.getAttribute("id");
                 </div>
                 <div class="col-sm-3">
                         <div class="card">
-                                <img src="sweets/restb1/malai1.png" alt="Denim Jeans" style="width:100%;height:140px;">
+                                <img src="sweets/restb1/malai1.png" alt="Denim Restaurant" style="width:100%;height:140px;">
                                 <h1>Malai Chop</h1>
                                 <p class="price">Rs.58</p>
                         <p>per 100 grams </p>
-                                <p><button>Add to Cart</button></p>
+                                
+                                <form action="CartServlet" method="POST">
+                        <p><button name="d" value="7 1 1">Add to Cart</button></p>
+                        </form>
                               </div>
         
                 </div>
                 <div class="col-sm-3">
                         <div class="card">
-                                <img src="sweets/restb1/milkcake1.jpg" alt="Denim Jeans" style="width:100%;height:140px;">
+                                <img src="sweets/restb1/milkcake1.jpg" alt="Denim Restaurant" style="width:100%;height:140px;">
                                 <h1>Milkcake</h1>
                                 <p class="price">Rs.64</p>
                         <p>per 100 grams </p>
-                                <p><button>Add to Cart</button></p>
+                                
+                                <form action="CartServlet" method="POST">
+                        <p><button name="d" value="8 1 1">Add to Cart</button></p>
+                        </form>
                               </div>
         
                 </div>
                 <div class="col-sm-3">
                         <div class="card">
-                                <img src="sweets/restb1/motichur1.jpg" alt="Denim Jeans" style="width:100%;height:140px;">
+                                <img src="sweets/restb1/motichur1.jpg" alt="Denim Restaurant" style="width:100%;height:140px;">
                                 <h1>Laddoo</h1>
                                 <p class="price">Rs.64</p>
                         <p>per 100 grams </p>
-                                <p><button>Add to Cart</button></p>
+                                
+                                <form action="CartServlet" method="POST">
+                        <p><button name="d" value="9 1 1">Add to Cart</button></p>
+                        </form>
                               </div>
         
                 </div>
@@ -223,31 +240,40 @@ String id = (String)s.getAttribute("id");
                         </div>
                         <div class="col-sm-3">
                                 <div class="card">
-                                        <img src="sweets/restb1/mysore1.jpg" alt="Denim Jeans" style="width:100%;height:140px;">
+                                        <img src="sweets/restb1/mysore1.jpg" alt="Denim Restaurant" style="width:100%;height:140px;">
                                         <h1>Mysore pak</h1>
                                         <p class="price">Rs.35</p>
                         				<p>per 100 grams </p>
-                                        <p><button>Add to Cart</button></p>
+                                        
+                                        <form action="CartServlet" method="POST">
+                        <p><button name="d" value="10 1 1">Add to Cart</button></p>
+                        </form>
                                       </div>
                 
                         </div>
                         <div class="col-sm-3">
                                 <div class="card">
-                                        <img src="sweets/restb1/ras1.jpg" alt="Denim Jeans" style="width:100%;height:140px;">
+                                        <img src="sweets/restb1/ras1.jpg" alt="Denim Restaurant" style="width:100%;height:140px;">
                                         <h1>Rasmalai</h1>
                                         <p class="price">Rs.70</p>
                         <p>per 100 grams </p>
-                                        <p><button>Add to Cart</button></p>
+                                        
+                                        <form action="CartServlet" method="POST">
+                        <p><button name="d" value="11 1 1">Add to Cart</button></p>
+                        </form>
                                       </div>
                 
                         </div>
                         <div class="col-sm-3">
                                 <div class="card">
-                                        <img src="sweets/restb1/soan1.jpg" alt="Denim Jeans" style="width:100%;height:140px;">
+                                        <img src="sweets/restb1/soan1.jpg" alt="Denim Restaurant" style="width:100%;height:140px;">
                                         <h1>Soanpapdi</h1>
                                         <p class="price">Rs.40</p>
                         <p>per 100 grams </p>
-                                        <p><button>Add to Cart</button></p>
+                                        
+                                        <form action="CartServlet" method="POST">
+                        <p><button name="d" value="12 1 1">Add to Cart</button></p>
+                        </form>
                                       </div>
                 
                         </div>

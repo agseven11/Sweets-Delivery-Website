@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mithai Mafia</title>
     <link rel="Stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
-    <link rel="Stylesheet" href="css/home.css">
+    <link rel="Stylesheet" href="css/home1.css">
     <link rel="Stylesheet" href="css/home01.css">
     <link rel="Stylesheet" href="css/fixed.css">
     <link rel="Stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
@@ -144,7 +144,7 @@ if(status3 != null){
                         <a class="btn btn-outline-light btn-lg" href="#">Select Location     <i class="fa fa-caret-down"></i></a>
 					<div class="places" id="plcid">
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item" id="bskid" href="">Banashankari</a>
+                          <a class="dropdown-item" id="bskid" href="#">Banashankari</a>
                           <div class="dropdown-divider"></div>
                           <a class="dropdown-item" id="jayid" href="#">Jayanagar</a>
                           <div class="dropdown-divider"></div>
